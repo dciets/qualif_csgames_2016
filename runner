@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from _runner import bench
 import argparse
 

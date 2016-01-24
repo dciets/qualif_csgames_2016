@@ -1,5 +1,5 @@
 # Modifiez ce fichier si votre solution est en Python.
-# Ce programme est un court exemple du protocol texte et d'une réponse au
+# Ce programme est un court exemple du protocol et d'une réponse au
 # premier challenge "Ping".
 # Modifiez "run.sh" pour exécuter ce programme python et
 # exécutez la suite de test avec la commande "./runner ./run.sh"
@@ -11,9 +11,7 @@
 # N'OUBLIER PAS DE "FLUSHER" VOS SORTIES!
 
 import sys
-print('T')
-sys.stdout.flush()
-mid, _, msg = sys.stdin.readline().split(':')
-print(':'.join([mid, msg]))
+_, msg = sys.stdin.readline().split(':')
+print(msg)
 sys.stdout.flush()
 

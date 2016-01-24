@@ -1,8 +1,8 @@
 from subprocess import Popen, PIPE
 import re
 import sys
-import protocol
-import mission
+from . import protocol
+from . import mission
 
 class RunnerError(Exception):
     pass
@@ -48,10 +48,10 @@ class Driver:
 
 def run(target, test_file, include=None):
     driver = Driver(target)
+    driver.protocol_ = protocol.AsciiProtocol(driver)
     missions = mission.MissionManager(driver, include)
     missions.load(test_file)
     try:
-        missions.protocol_ = protocol.AsciiProtocol(missions)
         missions.run()
     except KeyboardInterrupt:
         driver.error('Ctrl-C: Arrêt du programme.', raise_ex=False)

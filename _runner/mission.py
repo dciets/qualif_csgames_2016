@@ -160,7 +160,7 @@ class MissionManager:
         self.driver_.protocol_.send(challenge.mission_id, challenge.data)
 
     def read_response(self):
-        test_id, response = self.driver_.protocol_.recv()
+        response = self.driver_.protocol_.recv()
         mission = self.expected
         mission.validate(response)
         self.results.append(mission)

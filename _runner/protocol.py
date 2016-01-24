@@ -1,8 +1,11 @@
 import binascii
 import struct
 
-class AsciiProtocol(BaseProtocol):
-    def send(self, test_id, mission, test_input):
+class AsciiProtocol:
+    def __init__(self, driver):
+        self.driver_ = driver
+
+    def send(self, mission, test_input):
         data = (':'.join([str(mission), test_input])).encode()
         self.driver_.write(data + b'\n')
         self.driver_.flush()
