@@ -10,7 +10,7 @@ Afin de recevoir et répondre aux missions, votre logiciel devra être en mesure
 
 Ainsi, les requêtes de mission sont reçues en lisant une ligne de l’entrée standard de votre programme (par exemple, en Java vous pourriez utiliser BufferedReader.readLine). Chaque requête est composée d’un identifiant représentant le type de mission et les paramètres de ladite mission. Les types de missions possibles sont présentés plus loin. Les paramètres de mission seront toujours encodés en ASCII et leur format est spécifique à chaque type de mission. Le type de mission et ses paramètres sont séparés par deux points (`:`).
 
-Ainsi, une requête de mission de type Ping avec le paramètre "Pong" serait reçue sous la forme:
+Ainsi, une requête de mission de type Ping avec le paramètre `Pong` serait reçue sous la forme:
 
 ```
 1:Pong
@@ -24,7 +24,7 @@ Pong
 
 # Outil de test
 
-Un logiciel est fourni afin d’exécuter votre application et d’évaluer ses performances en la testant à un petit ensemble de données. Pour tester votre application, éditer "run.sh" en ajoutant les lignes de commande nécessaires pour exécuter votre application. Par la suite, exécutez les tests avec `./runner ./run.sh`. Vous pouvez aussi utiliser le paramètre `-i 3` pour exécuter seulement la suite de tests de la mission 3.
+Un logiciel est fourni afin d’exécuter votre application et d’évaluer ses performances en la testant à un petit ensemble de données. Pour tester votre application, éditer `run.sh` en ajoutant les lignes de commande nécessaires pour exécuter votre application. Par la suite, exécutez les tests avec `./runner ./run.sh`. Vous pouvez aussi utiliser le paramètre `-i 3` pour exécuter seulement la suite de tests de la mission 3.
 
 Dans le cas où votre soumission ne supporte pas une mission, veuillez répondre à la mission avec une ligne vide.
 
@@ -34,9 +34,9 @@ Trois fichiers d’exemples sont fournis (`run.sh`, `solution.py` et `solution.j
 
 * Les données textes sont encodées en ASCII.
 
-* Vous pouvez écrire des messages dans "stderr" afin de les voir affichés dans la sortie de l’outil de test.
+* Vous pouvez écrire des messages dans `stderr` afin de les voir affichés dans la sortie de l’outil de test.
 
-* **Il est possible que les sorties de votre programme soient mises en tampon. Assurez-vous d’appeler "flush" sur la sortie standard après l'envoi de chaque message. Vous pouvez aussi désactiver la mise en tampons de stdout (“setbuf(stdout, NULL);” en C/C++).**
+* **Il est possible que les sorties de votre programme soient mises en tampon. Assurez-vous d’appeler "flush" sur la sortie standard après l'envoi de chaque message. Vous pouvez aussi désactiver la mise en tampons de stdout (`setbuf(stdout, NULL);` en C/C++).**
 
 # Missions
 
@@ -67,7 +67,7 @@ La mission est simplement de renvoyer une réponse avec la chaîne de caractère
 
 ## Mission 2 - Palindrome (3 Pts)
 
-La mission est d’envoyer "true" si la chaîne donnée en paramètre est un palindrome ou “false” dans le cas contraire.
+La mission est d’envoyer `"true"` si la chaîne donnée en paramètre est un palindrome ou “false” dans le cas contraire.
 
 ### Exemple
 
@@ -236,7 +236,7 @@ Opérations supportées: -,+,\* et /.
 
 ## Mission 8 - Parsing (8 Pts)
 
-La mission est de retrouver une valeur précise dans un arbre de propriété N-aire sous un format maison. Le premier paramètre est le chemin à parcourir de la feuille à trouver. Le chemin est représenté sous forme de clés séparé par des points ("."). Un point virgule (“;”) sépare le chemin des données de l’arbre. Les données de l’arbre sont représentées sous forme de liste de valeurs entre parenthèses séparées par des virgules. Le premier élément de la liste est la clé du noeud et le reste est ses enfants. Si un noeud a un seul enfant, celui-ci est considéré comme une feuille de l’arbre. Par exemple, l’élément “(a, 1)” représente le noeud “a” avec la valeur “1”. Dans le cas où le chemin ne se rend pas à une feuille de l’arbre, la réponse doit être “-1”.
+La mission est de retrouver une valeur précise dans un arbre de propriété N-aire sous un format maison. Le premier paramètre est le chemin à parcourir de la feuille à trouver. Le chemin est représenté sous forme de clés séparé par des points (`.`). Un point virgule (`;`) sépare le chemin des données de l’arbre. Les données de l’arbre sont représentées sous forme de liste de valeurs entre parenthèses séparées par des virgules. Le premier élément de la liste est la clé du noeud et le reste est ses enfants. Si un noeud a un seul enfant, celui-ci est considéré comme une feuille de l’arbre. Par exemple, l’élément `(a, 1)` représente le noeud `a` avec la valeur `1`. Dans le cas où le chemin ne se rend pas à une feuille de l’arbre, la réponse doit être `-1`.
 
 Le format de l’arbre est défini par la grammaire suivante:
 
@@ -443,7 +443,7 @@ Cette mission consiste à traduire sous forme texte un nombre représenté sous 
 
 ## Mission 10 - Mathematique III (10 Pts)
 
-Cette mission est similaire à Mathematique I, par contre cette fois il vous est demandé de trouver la valeur de "x" dans une expression d’égalité algébrique. La réponse doit être sous forme d’un nombre décimal avec une précision arrondie de deux chiffres après la virgule.
+Cette mission est similaire à Mathematique I, par contre cette fois il vous est demandé de trouver la valeur de `x` dans une expression d’égalité algébrique. La réponse doit être sous forme d’un nombre décimal avec une précision arrondie de deux chiffres après la virgule.
 
 Opérations supportées: -,+,\*,/,^
 
@@ -565,7 +565,7 @@ L’archive doit contenir:
 
 * Votre programme compilé s’il y a lieu.
 
-* Le fichier run.sh qui exécute votre programme.
+* Le fichier `run.sh` qui exécute votre programme.
 
 La correction sera effectuée en exécutant la commande `./runner ./run.sh -t correction.json`.
 
