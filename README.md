@@ -8,7 +8,7 @@ L’objectif de l’épreuve de qualification de la DCI pour les CS Games 2016 s
 
 Afin de recevoir et répondre aux missions, votre logiciel devra être en mesure d’implémenter un protocole très simple. La communication de votre programme avec le gestionnaire de mission se fera via les entrées et sorties standard (stdin et stdout).
 
-Ainsi, les requêtes de mission sont reçues en lisant une ligne de l’entrée standard de votre programme (par exemple, en Java vous pourriez utiliser BufferedReader.readLine). Chaque requête est composée d’un identifiant représentant le type de mission et les paramètres de ladite mission. Les types de missions possibles sont présentés plus loin. Les paramètres de mission seront toujours encodés en ASCII et leur format est spécifique à chaque type de mission. Le type de mission et ses paramètres sont séparés par deux points (‘:’).
+Ainsi, les requêtes de mission sont reçues en lisant une ligne de l’entrée standard de votre programme (par exemple, en Java vous pourriez utiliser BufferedReader.readLine). Chaque requête est composée d’un identifiant représentant le type de mission et les paramètres de ladite mission. Les types de missions possibles sont présentés plus loin. Les paramètres de mission seront toujours encodés en ASCII et leur format est spécifique à chaque type de mission. Le type de mission et ses paramètres sont séparés par deux points (`:`).
 
 Ainsi, une requête de mission de type Ping avec le paramètre "Pong" serait reçue sous la forme:
 
@@ -24,11 +24,11 @@ Pong
 
 # Outil de test
 
-Un logiciel est fourni afin d’exécuter votre application et d’évaluer ses performances en la testant à un petit ensemble de données. Pour tester votre application, éditer "run.sh" en ajoutant les lignes de commande nécessaires pour exécuter votre application. Par la suite, exécutez les tests avec “./runner ./run.sh”. Vous pouvez aussi utiliser le paramètre “-i 3” pour exécuter seulement la suite de tests de la mission 3.
+Un logiciel est fourni afin d’exécuter votre application et d’évaluer ses performances en la testant à un petit ensemble de données. Pour tester votre application, éditer "run.sh" en ajoutant les lignes de commande nécessaires pour exécuter votre application. Par la suite, exécutez les tests avec `./runner ./run.sh`. Vous pouvez aussi utiliser le paramètre `-i 3` pour exécuter seulement la suite de tests de la mission 3.
 
 Dans le cas où votre soumission ne supporte pas une mission, veuillez répondre à la mission avec une ligne vide.
 
-Trois fichiers d’exemples sont fournis (run.sh, solution.py et solution.java). Ceux-ci offrent un exemple très simple pour répondre à une requête de type Ping en Python et Java. Libre à vous de vous en inspirer pour développer votre solution dans un autre langage!
+Trois fichiers d’exemples sont fournis (`run.sh`, `solution.py` et `solution.java`). Ceux-ci offrent un exemple très simple pour répondre à une requête de type Ping en Python et Java. Libre à vous de vous en inspirer pour développer votre solution dans un autre langage!
 
 ### Note
 
@@ -48,9 +48,9 @@ La mission est simplement de renvoyer une réponse avec la chaîne de caractère
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Paramètre de Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
@@ -73,9 +73,9 @@ La mission est d’envoyer "true" si la chaîne donnée en paramètre est un pal
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
@@ -103,9 +103,9 @@ La mission est de trier en ordre croissant la liste de nombres séparés par des
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Paramètre de Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
@@ -128,9 +128,9 @@ La mission est de compter le nombre d’éléments distincts passés en paramèt
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Paramètre de Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
@@ -153,9 +153,9 @@ La mission est d’envoyer le nombre d’instances d’une chaîne de caractère
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Paramètre de Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
@@ -185,9 +185,9 @@ Opérations supportées: (),-,+,\*,/,^,sin,cos,tan,e
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Paramètre de Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
@@ -217,9 +217,9 @@ Opérations supportées: -,+,\* et /.
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Paramètre de Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
@@ -253,20 +253,23 @@ Feuille := [a-zA-Z0-9]
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Paramètre de Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
     <td>a.b;(a, (a, 1), (b, 42), (c, 13))
 Représente l’arbre:
+```
    |
    a
   /|\
  a b c
  | |  \
- 1 42 13</td>
+ 1 42 13
+```
+</td>
     <td>42</td>
   </tr>
   <tr>
@@ -283,12 +286,15 @@ Représente l’arbre:
     <td>3</td>
     <td>foo.bar;(foo, (bar, 7),(biz, (a, 1), (b, 2)))
 Représente l’arbre:
+```
     / \
  foo   biz
   |     | \
  bar    a b
   |     | |
-  7     1 2</td>
+  7     1 2
+```
+</td>
     <td>7</td>
   </tr>
 </table>
@@ -296,66 +302,106 @@ Représente l’arbre:
 
 ## Mission 9 - ASCII Art (10 Pts)
 
-Cette mission consiste à traduire sous forme texte un nombre représenté sous forme de dessin ASCII. Les glyphes utilisés sont prédéfinis et alignés verticalement. Par contre, il est possible que des espaces soient insérés entre les lettres. Les sauts de ligne du dessin ASCII sont remplacés par des points-virgules (";"). Les glyphes utilisés sont les suivants:
+Cette mission consiste à traduire sous forme texte un nombre représenté sous forme de dessin ASCII. Les glyphes utilisés sont prédéfinis et alignés verticalement. Par contre, il est possible que des espaces soient insérés entre les lettres. Les sauts de ligne du dessin ASCII sont remplacés par des points-virgules (`;`). Les glyphes utilisés sont les suivants:
 
 <table>
   <tr>
-    <td>1</td>
-    <td>2</td>
-    <td>3</td>
-    <td>4</td>
-    <td>5</td>
+    <td>**1**</td>
+    <td>**2**</td>
+    <td>**3**</td>
+    <td>**4**</td>
+    <td>**5**</td>
   </tr>
   <tr>
-    <td>##
+    <td>
+```
+##
  #
  #
-###</td>
-    <td> ##
+###
+```
+</td>
+    <td>
+```
+ ##
 #  #
   #
-####</td>
-    <td>###
+####
+```
+</td>
+    <td>
+```
+###
   ##
 ####
-###</td>
-    <td># #
+###
+```
+</td>
+    <td>
+```
+# #
 # #
 ###
-  #</td>
-    <td>###
+  #
+```
+</td>
+    <td>
+```
+###
 ##
   #
-###</td>
+###
+```
+</td>
   </tr>
   <tr>
-    <td>6</td>
-    <td>7</td>
-    <td>8</td>
-    <td>9</td>
-    <td>0</td>
+    <td>**6**</td>
+    <td>**7**</td>
+    <td>**8**</td>
+    <td>**9**</td>
+    <td>**0**</td>
   </tr>
   <tr>
-    <td> ##
+    <td>
+```
+ ##
 #
 ###
-###</td>
-    <td>###
+###
+```
+</td>
+    <td>
+```
+###
  #
 #
-#</td>
-    <td>###
+#
+```
+</td>
+    <td>
+```
+###
 # #
 ###
-###</td>
-    <td>###
+###
+```
+</td>
+    <td>
+```
+###
 ###
   #
-##</td>
-    <td>###
+##
+```
+</td>
+    <td>
+```
+###
 # #
 # #
-###</td>
+###
+```
+</td>
   </tr>
 </table>
 
@@ -364,25 +410,31 @@ Cette mission consiste à traduire sous forme texte un nombre représenté sous 
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Paramètre de Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
-    <td>##   ##  ### ;
+    <td>
+```
+##   ##  ### ;
  #  #  #   ##;
  #    #  ####;
 ### #### ### ;
+```
 (Les sauts de ligne sont ajoutés pour la présentation seulement)</td>
     <td>123</td>
   </tr>
   <tr>
     <td>2</td>
-    <td># #     ###;
+    <td>
+```
+# #     ###;
 # #      # ;
 ###     #  ;
   #     #  ;
+```
 (Les sauts de ligne sont ajoutés pour la présentation seulement)</td>
     <td>47</td>
   </tr>
@@ -399,9 +451,9 @@ Opérations supportées: -,+,\*,/,^
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Paramètre de Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
@@ -439,16 +491,19 @@ La réponse est envoyée sous le format de caractère séparé par des espaces i
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Paramètre de Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
-    <td>###e#;
+    <td>
+```
+###e#;
 # # #;
 #   #;
 #s###
+```
 (Les sauts de ligne sont ajoutés pour la présentation seulement)</td>
     <td>D D L L D</td>
   </tr>
@@ -463,13 +518,15 @@ Cette mission est similaire à la **mission 11 - Labyrinthe**. Par contre, le fo
 
 <table>
   <tr>
-    <td>#</td>
-    <td>Paramètre de Requête</td>
-    <td>Réponse</td>
+    <td>**#**</td>
+    <td>**Paramètre de Requête**</td>
+    <td>**Réponse**</td>
   </tr>
   <tr>
     <td>1</td>
-    <td>/\           ;
+    <td>
+```
+/\           ;
 \e\  /\      ;
  \ \ \s\     ;
   \ \ \ \/\  ;
@@ -477,9 +534,10 @@ Cette mission est similaire à la **mission 11 - Labyrinthe**. Par contre, le fo
   \ \/  \/ / ;
    \  /\  /  ;
     \/  \/   ;
-
+```
 (Les sauts de ligne sont ajoutés pour la présentation seulement)
 Ce labyrinthe peut être visualisé de la façon suivante:
+```
  ###
  #e#
  # #
@@ -489,7 +547,9 @@ Ce labyrinthe peut être visualisé de la façon suivante:
 #    ##
 ### # #
   #   #
-  #####</td>
+  #####
+```
+</td>
     <td>DR DR DR DL DR DR UR UR UR UL UL</td>
   </tr>
 </table>
@@ -507,7 +567,7 @@ L’archive doit contenir:
 
 * Le fichier run.sh qui exécute votre programme.
 
-La correction sera effectuée en exécutant la commande "./runner ./run.sh -t correction.json".
+La correction sera effectuée en exécutant la commande `./runner ./run.sh -t correction.json`.
 
 # Pointage
 
