@@ -261,14 +261,14 @@ Feuille := [a-zA-Z0-9]
     <td>1</td>
     <td>a.b;(a, (a, 1), (b, 42), (c, 13))
 Représente l’arbre:
-```
+<pre>
    |
    a
   /|\
  a b c
  | |  \
  1 42 13
-```
+</pre>
 </td>
     <td>42</td>
   </tr>
@@ -286,14 +286,14 @@ Représente l’arbre:
     <td>3</td>
     <td>foo.bar;(foo, (bar, 7),(biz, (a, 1), (b, 2)))
 Représente l’arbre:
-```
+<pre>
     / \
  foo   biz
   |     | \
  bar    a b
   |     | |
   7     1 2
-```
+</pre>
 </td>
     <td>7</td>
   </tr>
