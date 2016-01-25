@@ -48,9 +48,9 @@ La mission est simplement de renvoyer une réponse avec la chaîne de caractère
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
@@ -73,9 +73,9 @@ La mission est d’envoyer `"true"` si la chaîne donnée en paramètre est un p
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
@@ -103,9 +103,9 @@ La mission est de trier en ordre croissant la liste de nombres séparés par des
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
@@ -122,15 +122,15 @@ La mission est de trier en ordre croissant la liste de nombres séparés par des
 
 ## Mission 4 - Compter (3 Pts)
 
-La mission est de compter le nombre d’éléments distincts passés en paramètre séparé par des espaces. La réponse doit être sous la forme <Élément>;<Nombre> avec chaque élément séparé par des espaces, en ordre alphabétique.
+La mission est de compter le nombre d’éléments distincts passés en paramètre séparé par des espaces. La réponse doit être sous la forme `<Élément>;<Nombre>` avec chaque élément séparé par des espaces, en ordre alphabétique.
 
 ### Exemple
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
@@ -147,15 +147,15 @@ La mission est de compter le nombre d’éléments distincts passés en paramèt
 
 ## Mission 5 - Recherche de texte (4 Pts)
 
-La mission est d’envoyer le nombre d’instances d’une chaîne de caractères X dans le texte Y. Les deux paramètres sont séparés par un point virgule (;): <X>;<Y>
+La mission est d’envoyer le nombre d’instances d’une chaîne de caractères X dans le texte Y. Les deux paramètres sont séparés par un point virgule (`;`): `<X>;<Y>`
 
 ### Exemple
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
@@ -185,9 +185,9 @@ Opérations supportées: (),-,+,\*,/,^,sin,cos,tan,e
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
@@ -217,9 +217,9 @@ Opérations supportées: -,+,\* et /.
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
@@ -253,9 +253,9 @@ Feuille := [a-zA-Z0-9]
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
@@ -314,44 +314,44 @@ Cette mission consiste à traduire sous forme texte un nombre représenté sous 
   </tr>
   <tr>
     <td>
-```
+<pre>
 ##
  #
  #
 ###
-```
+</pre>
 </td>
     <td>
-```
+<pre>
  ##
 #  #
   #
 ####
-```
+</pre>
 </td>
     <td>
-```
+<pre>
 ###
   ##
 ####
 ###
-```
+</pre>
 </td>
     <td>
-```
+<pre>
 # #
 # #
 ###
   #
-```
+</pre>
 </td>
     <td>
-```
+<pre>
 ###
 ##
   #
 ###
-```
+</pre>
 </td>
   </tr>
   <tr>
@@ -363,44 +363,44 @@ Cette mission consiste à traduire sous forme texte un nombre représenté sous 
   </tr>
   <tr>
     <td>
-```
+<pre>
  ##
 #
 ###
 ###
-```
+</pre>
 </td>
     <td>
-```
+<pre>
 ###
  #
 #
 #
-```
+</pre>
 </td>
     <td>
-```
+<pre>
 ###
 # #
 ###
 ###
-```
+</pre>
 </td>
     <td>
-```
+<pre>
 ###
 ###
   #
 ##
-```
+</pre>
 </td>
     <td>
-```
+<pre>
 ###
 # #
 # #
 ###
-```
+</pre>
 </td>
   </tr>
 </table>
@@ -410,31 +410,31 @@ Cette mission consiste à traduire sous forme texte un nombre représenté sous 
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
     <td>
-```
+<pre>
 ##   ##  ### ;
  #  #  #   ##;
  #    #  ####;
 ### #### ### ;
-```
+</pre>
 (Les sauts de ligne sont ajoutés pour la présentation seulement)</td>
     <td>123</td>
   </tr>
   <tr>
     <td>2</td>
     <td>
-```
+<pre>
 # #     ###;
 # #      # ;
 ###     #  ;
   #     #  ;
-```
+</pre>
 (Les sauts de ligne sont ajoutés pour la présentation seulement)</td>
     <td>47</td>
   </tr>
@@ -451,9 +451,9 @@ Opérations supportées: -,+,\*,/,^
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
@@ -491,19 +491,19 @@ La réponse est envoyée sous le format de caractère séparé par des espaces i
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
     <td>
-```
+<pre>
 ###e#;
 # # #;
 #   #;
 #s###
-```
+</pre>
 (Les sauts de ligne sont ajoutés pour la présentation seulement)</td>
     <td>D D L L D</td>
   </tr>
@@ -518,14 +518,14 @@ Cette mission est similaire à la **mission 11 - Labyrinthe**. Par contre, le fo
 
 <table>
   <tr>
-    <td>**#**</td>
-    <td>**Paramètre de Requête**</td>
-    <td>**Réponse**</td>
+    <td><b>#</b></td>
+    <td><b>Paramètre de Requête</b></td>
+    <td><b>Réponse</b></td>
   </tr>
   <tr>
     <td>1</td>
     <td>
-```
+<pre>
 /\           ;
 \e\  /\      ;
  \ \ \s\     ;
@@ -534,10 +534,10 @@ Cette mission est similaire à la **mission 11 - Labyrinthe**. Par contre, le fo
   \ \/  \/ / ;
    \  /\  /  ;
     \/  \/   ;
-```
+</pre>
 (Les sauts de ligne sont ajoutés pour la présentation seulement)
 Ce labyrinthe peut être visualisé de la façon suivante:
-```
+<pre>
  ###
  #e#
  # #
@@ -548,7 +548,7 @@ Ce labyrinthe peut être visualisé de la façon suivante:
 ### # #
   #   #
   #####
-```
+</pre>
 </td>
     <td>DR DR DR DL DR DR UR UR UR UL UL</td>
   </tr>
