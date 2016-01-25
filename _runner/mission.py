@@ -171,7 +171,7 @@ class MissionManager:
         responded = len(self.results)
         not_run = len(self.to_run)
         score = sum(m.calc_score() for m in self.results)
-        max_score = sum(m.score for m in self.all_missions) + 25
+        max_score = sum(m.score for m in self.all_missions)
         print("\n========== Results ==========")
         print("Nombre total de missions: {}".format(total))
         print("Missions non envoyées: {}".format(not_run))
