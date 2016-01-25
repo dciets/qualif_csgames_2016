@@ -286,7 +286,7 @@ Représente l’arbre:
   <tr>
     <td>3</td>
     <td>
-<pre>foo.bar;(foo, (bar, 7),(biz, (a, 1), (b, 2)))<pre>
+<pre>foo.bar;(foo, (bar, 7),(biz, (a, 1), (b, 2)))</pre>
 Représente l’arbre:
 <pre>
     / \
