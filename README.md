@@ -6,9 +6,9 @@ L’objectif de l’épreuve de qualification de la DCI pour les CS Games 2016 s
 
 # Communication
 
-Afin de recevoir et répondre aux missions, votre logiciel devra être en mesure d’implémenter un protocole très simple. La communication de votre programme avec le gestionnaire de mission se fera via les entrées et sorties standard (stdin et stdout).
+Afin de recevoir et répondre aux missions, votre logiciel devra être en mesure d’implémenter un protocole très simple. La communication de votre programme avec le gestionnaire de mission se fera via les entrées et sorties standard (`stdin` et `stdout`).
 
-Ainsi, les requêtes de mission sont reçues en lisant une ligne de l’entrée standard de votre programme (par exemple, en Java vous pourriez utiliser BufferedReader.readLine). Chaque requête est composée d’un identifiant représentant le type de mission et les paramètres de ladite mission. Les types de missions possibles sont présentés plus loin. Les paramètres de mission seront toujours encodés en ASCII et leur format est spécifique à chaque type de mission. Le type de mission et ses paramètres sont séparés par deux points (`:`).
+Ainsi, les requêtes de mission sont reçues en lisant une ligne de l’entrée standard de votre programme (par exemple, en Java vous pourriez utiliser `BufferedReader.readLine`). Chaque requête est composée d’un identifiant représentant le type de mission et les paramètres de ladite mission. Les types de missions possibles sont présentés plus loin. Les paramètres de mission seront toujours encodés en ASCII et leur format est spécifique à chaque type de mission. Le type de mission et ses paramètres sont séparés par deux points (`:`).
 
 Ainsi, une requête de mission de type Ping avec le paramètre `Pong` serait reçue sous la forme:
 
