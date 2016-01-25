@@ -67,7 +67,7 @@ La mission est simplement de renvoyer une réponse avec la chaîne de caractère
 
 ## Mission 2 - Palindrome (3 Pts)
 
-La mission est d’envoyer `"true"` si la chaîne donnée en paramètre est un palindrome ou “false” dans le cas contraire.
+La mission est d’envoyer `true` si la chaîne donnée en paramètre est un palindrome ou `false` dans le cas contraire.
 
 ### Exemple
 
@@ -147,7 +147,7 @@ La mission est de compter le nombre d’éléments distincts passés en paramèt
 
 ## Mission 5 - Recherche de texte (4 Pts)
 
-La mission est d’envoyer le nombre d’instances d’une chaîne de caractères X dans le texte Y. Les deux paramètres sont séparés par un point virgule (`;`): `<X>;<Y>`
+La mission est d’envoyer le nombre d’instances d’une chaîne de caractères `X` dans le texte `Y`. Les deux paramètres sont séparés par un point virgule (`;`): `<X>;<Y>`
 
 ### Exemple
 
@@ -179,7 +179,7 @@ La mission est d’envoyer le nombre d’instances d’une chaîne de caractère
 
 La mission contient une expression mathématique et vous devez renvoyer la réponse sous forme d’un nombre décimal avec une précision arrondie de deux chiffres après la virgule.
 
-Opérations supportées: (),-,+,\*,/,^,sin,cos,tan,e
+Opérations supportées: `()`,`-`,`+`,`*`,`/`,`^`,`sin`,`cos`,`tan` et `e`.
 
 ### Exemple
 
@@ -211,7 +211,7 @@ Opérations supportées: (),-,+,\*,/,^,sin,cos,tan,e
 
 Tout comme la mission 6, cette mission consiste à résoudre une expression mathématique. Par contre, cette mission inverse l’ordre de priorité des opérations. Ainsi, les additions et soustractions doivent être effectuées avant les multiplications et divisions.
 
-Opérations supportées: -,+,\* et /.
+Opérations supportées: `-`,`+`,`*` et `/`.
 
 ### Exemple
 
@@ -306,11 +306,11 @@ Cette mission consiste à traduire sous forme texte un nombre représenté sous 
 
 <table>
   <tr>
-    <td>**1**</td>
-    <td>**2**</td>
-    <td>**3**</td>
-    <td>**4**</td>
-    <td>**5**</td>
+    <td><b>1</b></td>
+    <td><b>2</b></td>
+    <td><b>3</b></td>
+    <td><b>4</b></td>
+    <td><b>5</b></td>
   </tr>
   <tr>
     <td>
@@ -355,11 +355,11 @@ Cette mission consiste à traduire sous forme texte un nombre représenté sous 
 </td>
   </tr>
   <tr>
-    <td>**6**</td>
-    <td>**7**</td>
-    <td>**8**</td>
-    <td>**9**</td>
-    <td>**0**</td>
+    <td><b>6</b></td>
+    <td><b>7</b></td>
+    <td><b>8</b></td>
+    <td><b>9</b></td>
+    <td><b>0</b></td>
   </tr>
   <tr>
     <td>
@@ -445,7 +445,7 @@ Cette mission consiste à traduire sous forme texte un nombre représenté sous 
 
 Cette mission est similaire à Mathematique I, par contre cette fois il vous est demandé de trouver la valeur de `x` dans une expression d’égalité algébrique. La réponse doit être sous forme d’un nombre décimal avec une précision arrondie de deux chiffres après la virgule.
 
-Opérations supportées: -,+,\*,/,^
+Opérations supportées: `-`,`+`,`*`,`/` et `^`.
 
 ### Exemple
 
@@ -483,9 +483,9 @@ La mission est de trouver un chemin pour compléter le labyrinthe reçu en param
 #s###
 ```
 
-où ‘e’ est le départ, ‘s’ la sortie, ‘#’ un mur, ‘ ‘ un passage libre et ‘;’ le délimiteur de ligne. Les sauts de ligne sont ajoutés pour la présentation seulement.
+où `e` est le départ, `s` la sortie, `#` un mur, ` ` un passage libre et `;` le délimiteur de ligne. Les sauts de ligne sont ajoutés pour la présentation seulement.
 
-La réponse est envoyée sous le format de caractère séparé par des espaces indiquant les directions à prendre à partir du début avec ‘U’, pour haut, ‘R’ pour droite, ‘D’ pour bas et ‘L’ pour gauche.
+La réponse est envoyée sous le format de caractère séparé par des espaces indiquant les directions à prendre à partir du début avec `U`, pour haut, `R` pour droite, `D` pour bas et `L` pour gauche.
 
 ### Exemple
 
@@ -512,7 +512,7 @@ La réponse est envoyée sous le format de caractère séparé par des espaces i
 
 ## Mission 12 - Labyrinthe II (13 Pts)
 
-Cette mission est similaire à la **mission 11 - Labyrinthe**. Par contre, le format du labyrinthe envoyé en paramètre est isométrique. Les directions possibles sont ‘UR’ pour la diagonale haut-droite, ‘DR’ pour la diagonale bas-droite, ‘DL‘ pour la diagonale bas-gauche et ‘UL’ pour la diagonale haut-droite.
+Cette mission est similaire à la **mission 11 - Labyrinthe**. Par contre, le format du labyrinthe envoyé en paramètre est isométrique. Les directions possibles sont `UR` pour la diagonale haut-droite, `DR` pour la diagonale bas-droite, `DL` pour la diagonale bas-gauche et `UL` pour la diagonale haut-droite.
 
 ### Exemple
 
