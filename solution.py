@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Modifiez ce fichier si votre solution est en Python.
 # Ce programme est un court exemple du protocol et d'une réponse au
 # premier challenge "Ping".
