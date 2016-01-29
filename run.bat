@@ -1,5 +1,5 @@
 :: Ce script est un exemple pour exécuter votre solution sous Windows
-python3 solution.py
+py.exe solution.py
 
 :: Décommentez les lignes suivantes si vous utilisez Java:
 :: javac solution.java > NUL
