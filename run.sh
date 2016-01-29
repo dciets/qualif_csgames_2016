@@ -2,7 +2,7 @@
 # Ce script est un exemple pour exécuter votre solution
 python3 solution.py
 
-# Décomentez les lignes suivantes si vous utilisez Java:
+# Décommentez les lignes suivantes si vous utilisez Java:
 # javac solution.java &> /dev/null
 # java solution
 
