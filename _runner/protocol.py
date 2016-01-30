@@ -14,8 +14,7 @@ class AsciiProtocol:
         try:
             line = self.driver_.readline()
             if line:
-                if line[-1] == 0xa:
-                    line = line[:-1]
+                line = line.strip()
                 return line.decode('utf')
         except RuntimeError as e:
             self.driver_.error('Réponse invalide', e)
