@@ -36,10 +36,13 @@ class LabyrinthMission(Mission):
             print('Challenge "{}" #{} passé\n'\
                     .format(self.mission['name'], self.test_id))
             self.result = True
+            return
+        
         try:
-            directions = ' '.split(response)
+            directions = response.split(" ")
             lab = self.test['request'].split(';')
             x,y = self.find_start(lab)
+            
             for d in directions:
                 x, y = self.move(lab, x, y, d)
 
@@ -59,11 +62,11 @@ class LabyrinthMission(Mission):
 
     def move(self, lab, x, y, d):
         if d == 'U':
-            y += 1
+            y -= 1
         elif d == 'R':
             x += 1
         elif d == 'D':
-            y -= 1
+            y += 1
         elif d == 'L':
             x -= 1
         else:
@@ -80,6 +83,8 @@ class LabyrinthMission(Mission):
 
         if lab[y][x] == '#':
             return False
+        
+        return True
 
     def find_start(self, lab):
         for y, l in enumerate(lab):
